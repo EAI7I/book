@@ -1,0 +1,59 @@
+
+.book_shower_body{
+    border: 1px solid gray;
+    margin: 5%;
+    width: 75%;
+    overflow:hidden;
+   margin-left: 12%;
+    height: 420px;
+}
+.book_shower_body:hover{
+    box-shadow: 0px 0px 20px 1px rgb(187, 187, 187);
+}
+
+.book_shower_name{
+font-family: Georgia, 'Times New Roman', Times, serif ;
+line-height: 1.2;
+margin-left: 5%;
+
+}
+
+.book_shower_author{
+    color: gray;
+    margin-left: 5%;
+}
+.book_shower_buy{
+    background-color:#00BFFF;
+    margin-left: 30%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    grid-area: book_shower_buy;
+    width: 60%;
+   
+} 
+.book_shower_buy:hover{
+    background-color:#002fff;
+    cursor: pointer;
+}
+.book_shower_img{
+    margin: 8%;
+    padding: 15%;
+    width: 60%;
+}
+.book_shower_cost{
+    font-weight: 600;
+    margin-left: 15%;
+    margin-top: 5%;
+    grid-area:book_shower_cost ;
+}
+.book_shower_footer{
+    display: grid;
+    grid-template-areas: "book_shower_cost book_shower_buy";
+    grid-template-columns: 1fr 1fr;
+}
+
+@media(max-width: 950px){
+    .book_shower_body{
+    height: 300px;
+    }
+}

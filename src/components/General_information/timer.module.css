@@ -1,0 +1,40 @@
+.wrapper{
+    display: grid;
+    grid-template-areas: "info_description timer";
+    grid-template-columns: 6fr 6fr;
+    
+    grid-area:timer;
+    background-color: #00BFFF;
+    padding: 2%;
+    margin-top: 2%;
+    padding-bottom: 4%;
+}
+.info_description{
+    grid-area:info_description ;
+    
+}
+.timer_title{
+    margin-left: 40px;
+}
+.timer{
+    grid-area:timer ;
+}
+.time{
+    display: inline-block;
+    width: 120px;
+    height: 140px;
+    background-color: rgb(248, 248, 248);
+    margin-left: 40px;
+    box-shadow:  10px 10px 15px 5px #000000;
+}
+.digit{
+    font-size: 60px;
+    margin:auto;
+    margin-top: 15%;
+    text-align: center;
+    display: block;
+}
+
+.digit_name{
+    margin-left: 38px;
+}

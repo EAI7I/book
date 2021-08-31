@@ -1,0 +1,100 @@
+
+.Header{
+    grid-area:Header;
+    display: grid;
+    grid-template-areas:
+    "logo search buscket";
+    grid-template-columns: 2fr 5fr 2fr;
+  padding-bottom: 20px;
+    background-color: #00BFFF;
+  }
+  
+  .logo{
+    grid-area:logo;
+    background-color:#00BFFF;
+  }
+  .logo img{
+    margin-left:20%;
+    margin-top:10%;
+    width: 60%;
+  }
+  .search{
+    grid-area:search;
+    background-color: #00BFFF;
+  }
+  .search input{
+    margin-left:10%;
+    margin-top: 3%;
+    width: 70%;
+    padding: 0.8em;
+    border-radius:15px ;
+    outline: none;
+    font-size:larger ;
+  }
+  .buscket{
+    grid-area:buscket;
+    background-color: #00BFFF;
+    display: grid;
+    grid-template-areas:
+    "buscket_img Buscket_counter";
+    
+  
+  }
+  .buscket img{
+    margin-top: 10%;
+    margin-left: 25%;
+    width:90px;
+    grid-area:buscket_img;
+  
+  }
+  .Buscket_counter{
+    grid-area: Buscket_counter;
+    margin-left: -25px;
+    margin-top: 20%;
+    color: #ffffff;
+  }
+  @media(max-width: 1330px){
+    .buscket img{
+     
+      width:100px;
+    }
+    .logo img{
+      margin-top:15%;
+      width: 170px;
+    }
+    .Buscket_counter{
+      display: none;
+    }
+  }
+@media(max-width: 980px){
+  .search input{
+    margin-left:5%;
+    margin-top: 5%;
+    width: 75%;
+    padding: 0.3em;
+  }
+  .logo img{
+    margin-top:10%;
+    width: 75%;
+  }
+  .buscket{
+    grid-area:buscket;
+    background-color: #00BFFF;
+    display: grid;
+    grid-template-areas:
+    "buscket_img"
+    "Buscket_counter";
+  }
+  .Header{
+    grid-template-columns: 3fr 6fr 1fr;
+  }
+  .buscket img{
+    margin-top: 30%;
+    margin-left: 1%;
+    width:60px;
+  }
+  .Buscket_counter{
+  
+    display: none;
+  }
+}

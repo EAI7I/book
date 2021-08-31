@@ -1,0 +1,32 @@
+.wrapper{
+    width:100%;
+    
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas:
+    "picture info_block price";
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.picture{
+    grid-area:picture;
+}
+.info_block{
+    grid-area:info_block;
+   
+}
+.price{
+    grid-area:price;
+    background-color: olive;
+   
+}
+.description{
+    grid-area:description;
+    background-color: palegoldenrod;
+    height: 50px;
+}
+.massages{
+    grid-area:massages;
+    background-color: palegoldenrod;
+    height: 50px;
+}

@@ -1,0 +1,35 @@
+.date{
+    color: rgba(128, 128, 128, 0.649);
+    margin-left: 80%;
+    display: inline-block;
+}
+.wrapper{
+    margin: 5%;
+    border: 1px solid black ;
+}
+.head{
+    margin: 2%;
+    font-weight:bold;
+    display: inline-block;
+    margin-left: 3%;
+}
+.text{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.name{
+    margin-left: 80%;
+    font-weight: bold;
+    display: inline-block;
+}
+.likes{
+    color: rgba(128, 128, 128, 0.649);
+    margin:2% ;
+    font-size: small;
+    display: inline-block;
+    margin-left: 4%;
+}
+.likes img {
+    width: 35px;
+}

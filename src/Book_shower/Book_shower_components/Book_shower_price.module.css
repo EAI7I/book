@@ -1,0 +1,58 @@
+.price_and_avalible{
+    background-color: #00bfff42;
+    height: 220px;
+    width: 380px;
+    margin-top: 45%;
+    
+}
+.avalible{
+    padding-left: 10%;
+    padding-top: 1%; 
+    display: inline-block;
+}
+.avalible h3{
+    color: black;
+}
+
+.charger_cell{
+    border: 8px solid #8bc53f;
+    background: #8bc53f;
+    display: inline-block;
+    margin-left: 2px;
+}
+.charger_cells{
+    display: inline-block; 
+}
+.price , .buy{
+    padding-left: 10%;
+    padding-top: 1%;
+
+}
+.price{
+    display: inline-block;
+}
+.buy_btn{
+    margin: 0;
+    background-color: #00bfff;
+    padding: 0;
+    padding: 15px 130px;
+   height: auto;
+}
+
+.offer{
+    display: inline-block; 
+    font-size: 0.9em;
+    font-weight: 400;
+    color: rgb(19, 168, 253);
+    border-bottom: rgb(19, 168, 253) dashed 3px;
+    margin-left: 30%;
+    margin-block-end: 0;
+}
+
+.buy_btn:hover{
+    background-color: #1100ff;
+}
+
+.buy_btn:active{
+    background-color: #a200ff;
+}

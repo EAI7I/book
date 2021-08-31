@@ -1,0 +1,15 @@
+.info_block__title{
+    margin-top: 10%;
+}
+table{
+  border-spacing: 55px 30px; 
+}
+td:nth-child(2n+1){
+    color: rgb(134, 134, 134);
+    font-weight: 700;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
